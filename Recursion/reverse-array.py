@@ -12,3 +12,6 @@ def reverseArray(nums, l, r):
     return nums
 
 print(reverseArray(arr, 0, len(arr) - 1))
+
+# TC -> O(N/2) -> 1/2 * N almost -> O(N)
+# SC -> O(N/2) almost -> O(N) ____ Stack Space
