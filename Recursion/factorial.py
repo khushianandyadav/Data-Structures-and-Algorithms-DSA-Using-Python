@@ -4,4 +4,8 @@ def factorial(num):
     return num * factorial(num -1)
 
 x = factorial(6)
+
 print(x)
+
+# TC -> O(N)
+# SC -> O(N) ____ Stack Space
