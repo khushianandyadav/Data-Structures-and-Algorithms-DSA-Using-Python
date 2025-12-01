@@ -4,4 +4,8 @@ def func(N):
     return N + func(N - 1)
 
 x = func(15)
+
 print(x)
+
+# TC -> O(N)
+# SC -> O(N) ____ Stack Space
